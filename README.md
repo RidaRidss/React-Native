@@ -263,7 +263,41 @@
                 2. Run this command to get all available devices in your system and it will Run your project application in all the available devices which will shown in list by checked by the command 'adb' 
             
                         adb devices
-            
+                        
+                3. Run 
+                
+                    1. first run server in VS Code terminal, press + button in VS Code terminal and run below command
+                        
+                            react-native start
+                            
+  #### note : If You got an error any time while starting the server " ERROR  A non-recoverable condition has triggered.  Watchman needs your help!" , use the below process , Run below 3 commands
+  
+            echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+            echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+            echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+            watchman shutdown-server
+  
+                
+                        
+                    2. secondly run app in VS Code terminal, press + button to add a new tab in VS Code terminal and run below command
+                            react-native run-android
+                        
+                
+                    react-native run-android
+                        
+#### note : If you got an error throw from VS Code terminal "java.io.IOException: Cannot run program : /home/username/Android/Sdk/build-tools/23.0.1/aapt" while apk installation in your device :                  
+               
+               open project's directory cmd and run below command 
+               
+                    sudo apt-get install lib32stdc++6 lib32z1
+                    
+                                    OR
+                                    
+                    Best way to install build-tools using android studio
+                    
+                        open android studio and install
+
+     
   #### 5. For Searching files in VS Code   
     
            press ctrl+p
