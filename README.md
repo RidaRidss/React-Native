@@ -118,14 +118,15 @@ step 1:     Node.js for ubuntu
                     
                    ii) export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
-   step 5 : Git
+ step 5 : Git
+ 
    
        1. install git using terminal
        
            sudo apt-get install git
      
-   step 6 :   Watchman
-   
+  step 6 :   Watchman
+  
        1. Go to the Root path in ubuntu terminal 
        
             cd ~
@@ -158,43 +159,48 @@ step 1:     Node.js for ubuntu
          
                 watchman --version
                 
-     step 6 :   Watchman shutdown-server
+                
+                
+ step 7 :   Watchman shutdown-server
      
-                echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches  && echo 999999 | sudo tee -a  /proc/sys/fs/inotify/max_queued_events && echo 999999 | sudo tee  -a /proc/sys/fs/inotify/max_user_instances && watchman  shutdown-server
+                      echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches  && echo 999999 | sudo tee -a  /proc/sys/fs/inotify/max_queued_events && echo 999999 | sudo tee  -a /proc/sys/fs/inotify/max_user_instances && watchman  shutdown-server
 
 
-    Step 7 :  Download Visual Studio code for ubuntu
-    
-                code_1.17.0-1507160143_amd64.deb
-                
-                double tap , open and install
-                
-                open vs code and install plugins 
-                
-                  press Ctrl + ',' you will get the plugin searchbar
-                  
-                now install following plugins 
-                  
-                  1.  React Native Tools by Visual Studio Mobile Tools
-                  2.  Auto Close Tag by Jun Han
-                  3.  Auto Complete Tag by Jun Han
-                  4. Auto Rename Tag by Jun Han
-                  5.  Babel ES6/ES7 by dzannotti
-                  6.  Code Spellcheker by Street Side Software
-                  7.  Color Highlight by Sergii Naumov
-                  8.  Document This by Jeol Day
-                  9.  ESLint by Drik Baeumer
-                  10.  Flow Language Support by flowtype
-                  11.  Git Blame by Wade Anderson
-                  12.  Lorem ipsum by Daniel Imms
-                  13.  Path Intellisense by Christian Kohler
-                  14.  Peep by nwallace
-                  15.  Prettier - JavaScript formatter by Esben Petersen
-                  16.  Rainbow Brackets by 2gua
-                  17.  SVG Viewer by cssho
-                  18.  SVN Changes by eliean
-                  19.  TODO Highlight by Wayou Liu
-                  20.  vscode-icons by Roberto Huertas
+
+
+Step 8 :  Download Visual Studio code for ubuntu
+
+
+    code_1.17.0-1507160143_amd64.deb
+
+    double tap , open and install
+
+    open vs code and install plugins 
+
+        press Ctrl + ',' you will get the plugin searchbar
+
+    now install following plugins 
+
+        1.  React Native Tools by Visual Studio Mobile Tools
+        2.  Auto Close Tag by Jun Han
+        3.  Auto Complete Tag by Jun Han
+        4. Auto Rename Tag by Jun Han
+        5.  Babel ES6/ES7 by dzannotti
+        6.  Code Spellcheker by Street Side Software
+        7.  Color Highlight by Sergii Naumov
+        8.  Document This by Jeol Day
+        9.  ESLint by Drik Baeumer
+        10.  Flow Language Support by flowtype
+        11.  Git Blame by Wade Anderson
+        12.  Lorem ipsum by Daniel Imms
+        13.  Path Intellisense by Christian Kohler
+        14.  Peep by nwallace
+        15.  Prettier - JavaScript formatter by Esben Petersen
+        16.  Rainbow Brackets by 2gua
+        17.  SVG Viewer by cssho
+        18.  SVN Changes by eliean
+        19.  TODO Highlight by Wayou Liu
+        20.  vscode-icons by Roberto Huertas
 
                   
               
