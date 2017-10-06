@@ -178,8 +178,14 @@
 
    #### 2. Code Extensions 
 
-        press window icon on left side of vs code window, you will get the Extensions searchbar , then install below extensions one by one and press reload after installation done.
+       [ Go To File => Preferences => Settings ]
+        
+                    OR
+        
+       [  press window icon on left side of vs code window, you will get the Extensions searchbar , then install below extensions one by one and press reload after installation done.
 
+            ] = >
+            {
                     1.  React Native Tools by Visual Studio Mobile Tools
                     2.  Auto Close Tag by Jun Han
                     3.  Auto Complete Tag by Jun Han
@@ -200,8 +206,8 @@
                     18.  SVN Changes by eliean
                     19.  TODO Highlight by Wayou Liu
                     20.  vscode-icons by Roberto Huertas
-
-
+            }
+            
 #### 3. Code Settings
     
     presss Ctrl + ','  now change VS code settings for React-Native Code , paste below code in the setting file with in {} openend by shortcut key as above
