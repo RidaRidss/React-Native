@@ -1,6 +1,6 @@
 # Complete Steps From Scratch for Ubuntu with All Keys
 
-step 1:     Node.js for ubuntu
+# step 1:     Node.js for ubuntu
 
     install node.js using ubuntu terminal 
 
@@ -12,7 +12,7 @@ step 1:     Node.js for ubuntu
    
               sudo apt-get install -y nodejs
     
- step 2 :    Yarn Package Manager
+# step 2 :    Yarn Package Manager
   
       install Yarn via Debian package repository on Ubuntu
     
@@ -29,7 +29,7 @@ step 1:     Node.js for ubuntu
       
               yarn --version
           
-step 3 :   JDK
+# step 3 :   JDK
    
     1. configure jdk using terminal :
 
@@ -55,7 +55,7 @@ step 3 :   JDK
 
          javac -version
 
-  step 4 :  Android Studio
+#  step 4 :  Android Studio
   
       1. download android studio via site
   
@@ -72,7 +72,7 @@ step 3 :   JDK
           ./studio.sh 
           
           
-note : After Installation if get an error :
+#### note : After Installation if get an error :
     Unable to run mksdcard SDK tool       
     Run the Process Below :
          
@@ -117,13 +117,13 @@ note : After Installation if get an error :
 
                    ii) export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
- step 5 : Git
+# step 5 : Git
  
         install git using terminal
        
            sudo apt-get install git
      
-  step 6 :   Watchman
+#  step 6 :   Watchman
   
   
        1. Go to the Root path in ubuntu terminal 
@@ -160,26 +160,25 @@ note : After Installation if get an error :
                 
                 
                 
- step 7 :   Watchman shutdown-server
+# step 7 :   Watchman shutdown-server
      
                       echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches  && echo 999999 | sudo tee -a  /proc/sys/fs/inotify/max_queued_events && echo 999999 | sudo tee  -a /proc/sys/fs/inotify/max_user_instances && watchman  shutdown-server
 
 
 
 
-Step 8 :  Visual Studio code
+# Step 8 :  Visual Studio code
 
-    1. Download Visual Studio Code for ubuntu
+  #### 1. Download Visual Studio Code for ubuntu
     
         code_1.17.0-1507160143_amd64.deb
 
-        double tap , open and install
+         double tap , open and install
 
-        open vs code and install plugins 
 
-            press window icon on left side of vs code window, you will get the plugin searchbar
+   #### 2. Code Extensions 
 
-                now install following Extensions 
+        press window icon on left side of vs code window, you will get the Extensions searchbar , then install below extensions one by one and press reload after installation done.
 
                     1.  React Native Tools by Visual Studio Mobile Tools
                     2.  Auto Close Tag by Jun Han
@@ -203,7 +202,9 @@ Step 8 :  Visual Studio code
                     20.  vscode-icons by Roberto Huertas
 
 
-            press window Ctrl + ',' , now change VS code settings for React-Native Code , paste below code in the setting file with in {} openend by shortcut key as above
+#### 3. Code Settings
+    
+    presss Ctrl + ','  now change VS code settings for React-Native Code , paste below code in the setting file with in {} openend by shortcut key as above
                 {
                         "editor.tabSize": 2,
                         "workbench.iconTheme": "vscode-icons",
