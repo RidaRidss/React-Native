@@ -222,5 +222,11 @@
                         "javascript.format.enable": false
                }
 
-                  
+  #### 4. Searching files    
+    
+           press ctrl+p
+           
+ #### 5. getting Terminal
+            
+           press ctrl+J  
               
