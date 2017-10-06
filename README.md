@@ -116,6 +116,16 @@
                    i) export ANDROID_HOME=/home/username/Android/Sdk
 
                    ii) export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+                   
+#### note : If HAXM is not available after installation , try this process :
+
+   ###### Change BIOS setting
+        
+        restart PC and press F10
+        => Security => System Security => Virtualization Technology => Enable 
+        => Security => System Security => Virtualization Technology Direction => Enable
+        press F10 for save setting and restart PC
+       
 
 # step 5 : Git
  
