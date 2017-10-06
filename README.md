@@ -266,7 +266,7 @@
                         
                 3. Run 
                 
-                    1. first run server in VS Code terminal, press + button in VS Code terminal and run below command
+                    1. for the very first time run server in VS Code terminal, press + button in VS Code terminal and run below command
                         
                             react-native start
                             
@@ -282,8 +282,27 @@
                     2. secondly run app in VS Code terminal, press + button to add a new tab in VS Code terminal and run below command
                             react-native run-android
                         
-                
-                    react-native run-android
+#### note : Now in the above command there is an option while you have already run this command first Time , app build is ready before , So no need of this for the next time
+
+                    3(a) If You are working with an android device
+                    
+                        Thirdly run react server to reload the changes within project to your device app after build prepare just connect your device , in VS Code terminal press + button to add a new tab in VS Code terminal and run below command
+                            [
+                                adb reverse tcp:8081 tcp:8081
+                            ]
+                                            OR
+                            [
+                            while you are connected to wifi to reload the changes just connect your device to system and shake your android device , now you will get a popup , go to dev setting => connect port => enter your I.P Address and then react native server will be automatically reload the app with the current changes within your app 
+                            ]
+
+                    3(b) If You are working with an emulator
+                    
+                        use the below command to reload changes within your app to emulator , press + button to add a new tab in VS Code terminal and run below command
+                       
+                            adb shell input keyevent 82
+                                               
+                        
+#### note : only Run the above command , its important, your device should be connected to the system , while your device is not connected to wifi : " This command is to start react native server and only if it is needed , while you are not connected to any server "
                         
 #### note : If you got an error throw from VS Code terminal "java.io.IOException: Cannot run program : /home/username/Android/Sdk/build-tools/23.0.1/aapt" while apk installation in your device :                  
                
