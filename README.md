@@ -186,7 +186,7 @@
          double tap , open and install
 
 
-   #### 2. Code Extensions 
+   #### 2. Install VS Code Extensions 
 
        [ Go To File => Preferences => Settings ]
         
@@ -218,7 +218,7 @@
                     20.  vscode-icons by Roberto Huertas
             }
             
-#### 3. Code Settings
+#### 3. Change VS Code Settings
     
     presss Ctrl + ','  now change VS code settings for React-Native Code , paste below code in the setting file with in {} openend by shortcut key as above
                 {
@@ -232,11 +232,40 @@
                         "javascript.format.enable": false
                }
 
-  #### 4. Searching files    
+ #### 4. Run React-Native Project in VS Code
+ 
+          1.  Open React-Native Project in terminal
+        
+          2.  Use below command to open your React-Native project in VS Code
+        
+            [
+               code .
+            ]
+            
+                        OR
+                        
+            [
+            
+            Open VS Code and Open Folder (select your project folder path)
+            
+            ]       
+            
+            3. getting VS Code Terminal 
+            
+                press ctrl+J  
+           
+            4. Connect Your Device
+            
+                1. If Android SDK is installed ,this command will work
+            
+                       adb
+                
+                2. Run this command to get all available devices in your system and it will Run your project application in all the available devices which will shown in list by checked by the command 'adb' 
+            
+                        adb devices
+            
+  #### 5. For Searching files in VS Code   
     
            press ctrl+p
            
- #### 5. getting Terminal
-            
-           press ctrl+J  
-              
+           
