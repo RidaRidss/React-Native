@@ -1,6 +1,6 @@
 # Complete Steps From Scratch for Ubuntu with All Keys
 
-# step 1:     Node.js for ubuntu
+# step 1:     Node.js 
 
     install node.js using ubuntu terminal 
 
