@@ -233,8 +233,7 @@
                }
 
  #### 4. Run React-Native Project in VS Code
- 
-          1.  Open React-Native Project in terminal
+         1.  Open React-Native Project in terminal
         
           2.  Use below command to open your React-Native project in VS Code
         
@@ -260,7 +259,7 @@
             
                        adb
                 
-                2. Run this command to get all available devices in your system and it will Run your project application in all the available devices which will shown in list by checked by the command 'adb' 
+                2. Run this command to get all available devices in your system and it will Run your project application in all the available devices which will shown in list checked by the command 'adb' 
             
                         adb devices
                         
@@ -270,7 +269,7 @@
                         
                             react-native start
                             
-  #### note : If You got an error any time while starting the server " ERROR  A non-recoverable condition has triggered.  Watchman needs your help!" , use the below process , Run below 3 commands
+  #### note : If You got an error any time while starting the server ERROR  A non-recoverable condition has triggered.  Watchman needs your help!" , use the below process , Run below 3 commands
   
             echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
             echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
@@ -279,30 +278,12 @@
   
                 
                         
-                    2. secondly run app in VS Code terminal, press + button to add a new tab in VS Code terminal and run below command
+                   2. secondly run app in VS Code terminal, press + button to add a new tab in VS Code terminal and run below command
+                            
                             react-native run-android
-                        
+                            
 #### note : Now in the above command there is an option while you have already run this command first Time , app build is ready before , So no need of this for the next time
 
-                    3(a) If You are working with an android device
-                    
-                        Thirdly run react server to reload the changes within project to your device app after build prepare just connect your device , in VS Code terminal press + button to add a new tab in VS Code terminal and run below command
-                            [
-                                adb reverse tcp:8081 tcp:8081
-                            ]
-                                            OR
-                            [
-                            while you are connected to wifi to reload the changes just connect your device to system and shake your android device , now you will get a popup , go to dev setting => connect port => enter your I.P Address and then react native server will be automatically reload the app with the current changes within your app 
-                            ]
-
-                    3(b) If You are working with an emulator
-                    
-                        use the below command to reload changes within your app to emulator , press + button to add a new tab in VS Code terminal and run below command
-                       
-                            adb shell input keyevent 82
-                                               
-                        
-#### note : only Run the above command , its important, your device should be connected to the system , while your device is not connected to wifi : " This command is to start react native server and only if it is needed , while you are not connected to any server "
                         
 #### note : If you got an error throw from VS Code terminal "java.io.IOException: Cannot run program : /home/username/Android/Sdk/build-tools/23.0.1/aapt" while apk installation in your device :                  
                
@@ -315,10 +296,46 @@
                     Best way to install build-tools using android studio
                     
                         open android studio and install
+                        
+                    3(a) If You are working with an android device
+                    
+                        Thirdly run react server within project to your device app after build prepare just connect your device , in VS Code terminal press + button to add a new tab in VS Code terminal and run below command
+                            [
+                                adb reverse tcp:8081 tcp:8081
+                            ]
+                                            OR
+                            [
+                            while you are connected to wifi to connect with react native server , just connect your device to system and shake your android device , now you will get a popup , go to dev setting => connect port => enter your I.P Address
+                             now you donot need to shake your android device and reload option selection , you are now connected to react native server using your system i.p server which will be automatically reload the app with the current changes within your project. 
+                            ]
 
-     
-  #### 5. For Searching files in VS Code   
-    
-           press ctrl+p
-           
-           
+                    3(b) If You are working with an emulator , now how will you get that popup which occuring through your android device shaking?
+                    
+                        use the below command to get popup to emulator , press + button to add a new tab in VS Code terminal and run below command
+                       
+                                adb shell input keyevent 82 
+                            
+                                                OR
+                                  
+                              You can use the above command to get the popup while your device connected to system.
+                            
+#### note: This Keycode is android system Keycode to throw an event as described in this android developer guide
+                            
+                              https://developer.android.com/reference/android/view/KeyEvent.html#KEYCODE_CLEAR
+                                      
+#### note : only Run the above command , its important, your device should be connected to the system .
+##### Advantage Of This popup feature
+
+     "This popup will show more options , reload , Hot Reload port and wifi setting etc "
+
+###### Reload :  
+
+        This option will reload the changes with react native server to the app.  
+
+ ###### Hot Reload :
+        
+        This option enabling live sync , while you have enabled this option , you are connected to system , and react server changes continously applying to your app .
+                        
+  ##### 5. For Searching files in VS Code   
+
+                       press ctrl+p
