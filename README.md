@@ -330,7 +330,11 @@
                         connect your device , in VS Code terminal press + button to add a new tab in VS Code terminal and run below command
                           1.  adb shell input keyevent 82
                          
-                       you will get a popup (https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu) then select options as below
+                       you will get a popup 
+                       
+ ###### (https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu) 
+ 
+                        then select options as below
                          
                          2.   Dev Settings → Debug server -> Debug server host and ports for device
                             
@@ -346,7 +350,11 @@
                   
                         4(a)  adb shell input keyevent 82
                          
-                        4 (b)  you will get a popup (https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu) then select options as below
+                        4 (b)  you will get a popup 
+                        
+  ###### (https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu)
+  
+                        then select options as below
                          
                         4 (c)  Reload
                         
