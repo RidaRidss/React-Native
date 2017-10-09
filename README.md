@@ -354,7 +354,7 @@
 
      
      
-                    3(a) If You are working with an emulator follow step 4
+                    3(b) If You are working with an emulator follow step 4
      
      
      
