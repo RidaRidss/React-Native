@@ -6,13 +6,38 @@
 
          1. Configure Repo first :
    
+              sudo apt-get install -y build-essential
+              
               curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
    
         2. Install :
    
-              sudo apt-get install -y nodejs
+              1. sudo apt-get install -y nodejs
+              
+              2. npm
+              
+ # Step 2 : React Native
     
-# step 2 :    Yarn Package Manager
+               npm install -g create-react-app
+               
+               
+##### Note : To install updated npm
+
+                Run npm i -g npm    
+                
+ ###### Create React Native Project 
+ 
+                react-native init new-app
+                
+                ls
+                
+ ###### ls: This ubuntu command will show all the directories where you are at , also you will get the path of your react native app folder
+             
+     
+    now you have to create complete environment and then open this folder in Visual Studio Code , See the instructions below
+               
+
+# step 3 :    Yarn Package Manager
   
                install Yarn via Debian package repository on Ubuntu
     
@@ -29,7 +54,7 @@
 
                   yarn --version
           
-# step 3 :   JDK
+# step 4 :   JDK
    
             1. configure jdk using terminal :
 
@@ -55,7 +80,7 @@
 
                  javac -version
 
-#  step 4 :  Android Studio
+#  step 5 :  Android Studio
   
             1. download android studio via site
 
@@ -127,13 +152,13 @@
                             press F10 for save setting and restart PC
 
 
-# step 5 : Git
+# step 6 : Git
  
             install git using terminal
 
                 sudo apt-get install git
      
-#  step 6 :   Watchman
+#  step 7 :   Watchman
   
   
             1. Go to the Root path in ubuntu terminal 
@@ -170,12 +195,12 @@
                 
                 
                 
-# step 7 :   Watchman shutdown-server
+# step 8 :   Watchman shutdown-server
      
                 echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches  && echo 999999 | sudo tee -a  /proc/sys/fs/inotify/max_queued_events && echo 999999 | sudo tee  -a /proc/sys/fs/inotify/max_user_instances && watchman  shutdown-server
 
 
-# Step 8 :  Visual Studio code
+# Step 9 :  Visual Studio code
 
   #### 1. Download Visual Studio Code for ubuntu
     
@@ -281,40 +306,57 @@
 
                                 react-native run-android
                         
-                            #### note : Now in the above command there is an option while you have already run this command first Time , app build is ready before , So no need of this for the next time
+ #### note : Now in the above command there is an option while you have already run this command first Time , app build is ready before , So no need of this for the next time
 
-                        3(a) If You are working with an android device
-                    
-                            Thirdly run react server to reload the changes within project to your device app after build prepare just connect your device , in VS Code terminal press + button to add a new tab in VS Code terminal and run below command
-                                [
-                                    adb reverse tcp:8081 tcp:8081
-                                ]
-                                                  OR
-                                [
-                                    while you are connected to wifi to reload the changes just connect your device to system and shake your android device , now you will get a popup , go to dev setting => connect port => enter your I.P Address and then react native server will be automatically reload the app with the current changes within your app 
-                                ]
 
-                        3(b) If You are working with an emulator
-                    
-                              use the below command to reload changes within your app to emulator , press + button to add a new tab in VS Code terminal and run below command
-                       
-                                    adb shell input keyevent 82
-                                                   
-                        
-                        #### note : only Run the above command , its important, your device should be connected to the system , while your device is not connected to wifi : " This command is to start react native server and only if it is needed , while you are not connected to any server "
 
-                        #### note : If you got an error throw from VS Code terminal "java.io.IOException: Cannot run program : /home/username/Android/Sdk/build-tools/23.0.1/aapt" while apk installation in your device :                  
+#### note : If you got an error throw from VS Code terminal "java.io.IOException: Cannot run program : /home/username/Android/Sdk/build-tools/23.0.1/aapt" while apk installation in your device :                  
                
-                           open project's directory cmd and run below command 
+           open project's directory cmd and run below command 
 
-                                sudo apt-get install lib32stdc++6 lib32z1
+                sudo apt-get install lib32stdc++6 lib32z1
 
-                                                OR
+                                OR
 
-                                Best way to install build-tools using android studio
+                Best way to install build-tools using android studio
 
-                                    open android studio and install
+                    open android studio and install
+                    
+                    
+                    
+                3(a) If You are working with an android device
+                    
+                     Thirdly run react server "The main thing is that" Your devices should be connected to your system machine's IP address                    
+                        connect your device , in VS Code terminal press + button to add a new tab in VS Code terminal and run below command
+                          1.  adb shell input keyevent 82
+                         
+                       you will get a popup (https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu) then select options as below
+                         
+                         2.   Dev Settings → Debug server -> Debug server host and ports for device
+                            
+                         3.   Type in your machine's IP address and the port of the local dev server (e.g. 192.168.1.157:8081)
+                            
+  #### note : How will you approach your system ip address in ubuntu
+  
+                    Open a terminal and type below command to find your machine's IP address.
+                
+                            /sbin/ifconfig
+                    
+                  4.  Go back to the Developer menu and select Reload JS.
+                  
+                        4(a)  adb shell input keyevent 82
+                         
+                        4 (b)  you will get a popup (https://facebook.github.io/react-native/docs/debugging.html#accessing-the-in-app-developer-menu) then select options as below
+                         
+                        4 (c)  Reload
+                        
+                            above command will reload the changes , after build installation
 
+     
+     
+                    3(a) If You are working with an emulator follow step 4
+     
+     
      
   #### 5. For Searching files in VS Code   
     
