@@ -23,7 +23,7 @@
                
 ##### Note : To install updated npm
 
-                Run npm i -g npm    
+                npm i -g npm    
                 
  ###### Create React Native Project 
  
