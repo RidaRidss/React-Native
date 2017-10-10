@@ -104,9 +104,9 @@
 
             c. sudo apt install android-studio
             
+            d. open this path in terminal then continue to step 4
             
-            
-            
+                /opt/android-studio/bin
             
 
             4. install the file 
