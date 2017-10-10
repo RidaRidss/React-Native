@@ -17,8 +17,10 @@
               2. npm
               
  # Step 2 : React Native
+ 
+               sudo npm install -g react-native-cli
     
-               npm install -g create-react-app
+               sudo npm install -g create-react-app
                
                
 ##### Note : To install updated npm
@@ -224,6 +226,16 @@
                 echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches  && echo 999999 | sudo tee -a  /proc/sys/fs/inotify/max_queued_events && echo 999999 | sudo tee  -a /proc/sys/fs/inotify/max_user_instances && watchman  shutdown-server
 
 
+                                OR
+                                
+                echo 256 | sudo tee -a /proc/sys/fs/inotify/max_user_instances
+                echo 32768 | sudo tee -a /proc/sys/fs/inotify/max_queued_events
+                echo 65536 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+                watchman shutdown-server
+
+
+                  
+                  
 # Step 9 :  Visual Studio code
 
   #### 1. Download Visual Studio Code for ubuntu
