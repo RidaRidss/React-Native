@@ -92,6 +92,23 @@
 
               cd /usr/android-studio/bin/
 
+
+                        OR
+                        
+                        
+##### note : skip step 1,2,3 and follow below 3 commands to install android studio using ubuntu terminal
+
+            a. sudo add-apt-repository ppa:maarten-fonville/android-studio
+
+            b. sudo apt update
+
+            c. sudo apt install android-studio
+            
+            
+            
+            
+            
+
             4. install the file 
 
               ./studio.sh 
