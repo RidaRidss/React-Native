@@ -201,12 +201,19 @@
             6. install 
        
                  1.  ./autogen.sh 
+                 
+                 2. ./configure
 
-                 2.   make
+                 3.   make
 
-                 3.   sudo apt-get install make
+                 4.   sudo apt-get install make 
+                 
+                            OR
+                            
+                     sudo make install
+                     
 
-                 4.   check watchman version using terminal
+                 5.   check watchman version using terminal
 
                         watchman --version
                 
