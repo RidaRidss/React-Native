@@ -328,6 +328,9 @@
                         1. for the very first time run server in VS Code terminal, press + button in VS Code terminal and run below command
                         
                                 react-native start
+                                
+                          #### note : If You got an error "ERROR :  ERROR  Packager can't listen on port 8081 "use the below process , Run below 3 commands                                
+                                react-native start --port=8088
                             
                           #### note : If You got an error any time while starting the server " ERROR  A non-recoverable condition has triggered.  Watchman needs your help!" , use the below process , Run below 3 commands
 
