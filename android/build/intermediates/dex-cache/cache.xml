@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/103741fb30ab1f9ba1e196b7e18d2c91209d4976/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_3637929a2f3a17948b95746d49240eeb05d88d98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_9f7cd324ee5e7ab70a584784a1b878a6114f1386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_f206ad80ca5a591ed1ade6a916c97d1f2caf338b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/e872a4d4761251732cc9865054de46396f9453b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_f59aa6f3d246e38d5586c0009f64f8cd0160d9b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_f206ad80ca5a591ed1ade6a916c97d1f2caf338b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_92f5228468b8d72dea37d926164734d9f756011a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/5b4acd5977c4e6a3ec78ae1cf0bab4e32dcb86d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_dfa2e95d6d23d5d19e91902754f2224683a28f7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_f783bed64a047a2f2fc75008d699d7c4e3047828.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/0b24ff0f3659412bfae41c931bcb43b5adabc5e7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_209f103cf715161e987cd9428bb10ffd7154221d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_2cc0c1685a856fef52d109ee13e4573d636dffcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_bf30ef39b6c8489f4d112269cfb357480f4b9527.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/bc75e36af0831aa11a4b28b157a3f7ac2a2a6835/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_3bbbad397e216437115b7acf4f7cb3894296307c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/0d58208853d9041ff4a24d9626a664db00a19e03/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_120e3949abdc5acee0e92e04705b9f66ec065668.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_bf30ef39b6c8489f4d112269cfb357480f4b9527.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_92f5228468b8d72dea37d926164734d9f756011a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_18741e81dff61ddec88ce6f0500eca03d19a0d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/7daa0764115bf7a00c82d87e8a0e0bacf090f38c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_12945a20e72284dc434bc01259b2367fb13cb042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_2cc0c1685a856fef52d109ee13e4573d636dffcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_a9287161b88a7f3927b8b4ca292bf60006e48c39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/0d725a6552a0961c7858d8b3e1ceb5e30c58d60b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_b4be3d83602772496c653ef5f600200636733c80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_f783bed64a047a2f2fc75008d699d7c4e3047828.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/e61396e96616a8a5a5f658169217096b3c03e2e0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_e53e6c4a6ab0a8c3dc0e281aaa83cbe8b8fd75b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/103741fb30ab1f9ba1e196b7e18d2c91209d4976/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_1e470d1c84d6de00986223f088f1646cab337aae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/2503c7aefe498c5aace77a5dc1e73d4acc9fa72b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_84803a9dbc9c4f86d4448990342a1fea5f94dc6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/0f3c58c4ad5b5903c282c664e373b0f2b921831b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_b7eb78abdc35eaa998902f52ece549ad5b33ede2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/bc75e36af0831aa11a4b28b157a3f7ac2a2a6835/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="79211dda47231d54c25be9dcde75cb3a4832e032">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_64275e87c52bfc1b68b96af85e97d99e345798c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_18741e81dff61ddec88ce6f0500eca03d19a0d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_9f7cd324ee5e7ab70a584784a1b878a6114f1386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_a9287161b88a7f3927b8b4ca292bf60006e48c39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridaserwer/.android/build-cache/d58e51cdb7acb5108aee6775b455fc3875cf1edc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/pre-dexed/debug/classes_445274ce3901a906088bd3727d463a158d9a9e2b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/ridaserwer/.android/build-cache/e61396e96616a8a5a5f658169217096b3c03e2e0/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/ridaserwer/Workspace/ReactNative/MySampleApp/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/ridaserwer/.android/build-cache/e61396e96616a8a5a5f658169217096b3c03e2e0/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
