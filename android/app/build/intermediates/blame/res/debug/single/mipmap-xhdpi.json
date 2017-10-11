@@ -2,5 +2,9 @@
     {
         "merged": "/home/ridasarwar/git/ReactNative/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/ridasarwar/git/ReactNative/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ridasarwar/git/react/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/ridasarwar/git/react/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]
