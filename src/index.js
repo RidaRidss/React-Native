@@ -35,39 +35,6 @@ export default class App extends Component {
           />
         </Scene>
       </Router>
-      // <Scene
-      // tabs
-      // lazy
-      // initial
-      // showIcon
-      // key="home"
-      // showLabel={false}
-      // swipeEnabled={false}
-      // tabBarPosition="bottom"
-      // type={ActionConst.RESET}
-      // animationEnabled={false}
-      // iconStyle={styles.iconStyle}
-      // tabBarStyle={styles.tabBarStyle}
-      // indicatorStyle={styles.indicatorStyle}
-      // >
-      // <Scene
-      // key="root"
-      // hideNavBar
-      // backTitle=" "
-      // headerTintColor={Colors.text.secondary}
-      // titleStyle={styles.title}
-      // headerStyle={styles.header}
-      // >
-      // <Scene
-      // initial
-      // key="dashboard"
-      // component={Groov}
-      // onRight={() => Actions.search()}
-      // rightButtonImage={Images.search}
-      // rightButtonStyle={styles.rightButton}
-      // navigationBarTitleImage={Images.groovLogo}
-      // navigationBarTitleImageStyle={styles.groov}
-      // />
     );
   }
 }
