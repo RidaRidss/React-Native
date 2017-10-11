@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/ridasarwar/WorkSpace/react/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/home/ridasarwar/WorkSpace/reactapp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }

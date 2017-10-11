@@ -3,30 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_b2cc1839c7e136cd304ca5ca35ba85ac2848ed4b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_9ec7c3d17ac1cb190ffe36269ac57cc5e0c792a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_7278e0e42428cc19482312c6cf061c56947a6ef3.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_a5fe8bfa67344da3a09bf5b9ccbcb0fa93e907d6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,7 +17,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_a170193143ffd455b6a766bf1c79092fcbc9485b.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_a170193143ffd455b6a766bf1c79092fcbc9485b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,7 +26,25 @@
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_fa682187a1228daac8b8350287a068573ac49057.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_fa682187a1228daac8b8350287a068573ac49057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_e3c08d6ed90fb7a2cf1e9581e8b4d5dd8c4645f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_a37934df7ece3106773f918d2bd22e8271cbd489.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,16 +53,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e2eff167bf368c00f40aa992ea20ccbfd73f4618.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.3_6981df06a6b75fc60c62df08a6d122e4640c227c.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e2eff167bf368c00f40aa992ea20ccbfd73f4618.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,52 +62,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b6e70f7b641a13c054945ce38ced74e00be92fe8.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_b6e70f7b641a13c054945ce38ced74e00be92fe8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_cfcc111245adcaf1a8141733092e30d39787942d.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_2a2276e5cbb9c361c529809112513d911ad69948.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_6ae38c78dc9aa205474129e8fc0aacb7a1a4e008.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_0d7c6dca200fe7ba91b336c3d52a7419a0e7a022.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_9583016400a1a318e976de9bc4daae611b2c696e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_20460733290a8401eeadfdaa7ce064ecbd0d0361.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_6c61315ac42737d9a51694397bec1def9959bee9.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_b430af22c7b266141a2c9041a99989b352abfbee.jar" />
     </item>
     <item
         is-multidex="false"
@@ -125,25 +98,79 @@
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ba487e63217b439ba9e1b303bc4370f34e16fcae.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_ba487e63217b439ba9e1b303bc4370f34e16fcae.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/libs/infer-annotations-4.0.jar"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_d1abd345f89c2f6499d8bcddc5b7248013c65f06.jar" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_03e16e7bbe732f771d9a1166e7f5cc5e0d13a82e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_38d1aa31b5d0fb6ae64649d02b767376cbd207d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_0e6e416fdbed0c0fb98f1da2aaf92eb831e892d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_9ec7c3d17ac1cb190ffe36269ac57cc5e0c792a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_a2444aea7f8fcbd1d862cd3714aeb078479a1a18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_c9b8f54b0f915647463821d4f3338d41986fc1c1.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_924ce83eac2e697efc3cd872902c07f8d5116575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_c1e5a9222ab1fa21193e98726a5243577a61d0d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.3_d4bca5b69f3b0ce2daaddf438611d357834b9c69.jar" />
     </item>
     <item
         is-multidex="false"
@@ -152,16 +179,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_8f94c9a50373572f202568d87a41d3159d7b6a04.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b2d7ffe9fac87582026fb1570ed9652e76bc87e9.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_8f94c9a50373572f202568d87a41d3159d7b6a04.jar" />
     </item>
     <item
         is-multidex="false"
@@ -170,25 +188,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_06fa1abb3dadb67ba02b94317957d187b7038347.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_19bb61ee5f92c63a1cfa6779419ee707f2fcd947.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/home/ridasarwar/WorkSpace/reactapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_1379b8564cc068ee11b15d95855a428577d41020.jar" />
+        <dex dex="/home/ridasarwar/WorkSpace/react/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_06fa1abb3dadb67ba02b94317957d187b7038347.jar" />
     </item>
 
 </items>
